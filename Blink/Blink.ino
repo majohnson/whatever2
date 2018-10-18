@@ -30,8 +30,40 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(250);                       // wait for 1/4th second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, HIGH);   //blinks "S" 3 times
+  delay(100);                      
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(100);                      
+  digitalWrite(LED_BUILTIN, HIGH);  
+  delay(100);                       
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(100);  
+  digitalWrite(LED_BUILTIN, HIGH);  
+  delay(100);                      
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(100);
+  digitalWrite(LED_BUILTIN, HIGH);  // blinks 'O' 3 times 
+  delay(500);                      
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(100);                       
+  digitalWrite(LED_BUILTIN, HIGH);   
+  delay(500);                       
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(100);  
+  digitalWrite(LED_BUILTIN, HIGH);   
+  delay(500);                       
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(100);
+  digitalWrite(LED_BUILTIN, HIGH);   // blinks "S" 3 times
+  delay(100);                       
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(100);                       
+  digitalWrite(LED_BUILTIN, HIGH);  
+  delay(100);                      
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(100);  
+  digitalWrite(LED_BUILTIN, HIGH);   
+  delay(100);                       
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(100);
 }
