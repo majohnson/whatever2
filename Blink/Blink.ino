@@ -30,40 +30,33 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   //blinks "S" 3 times
+  int x = 0;
+  int y = 0;
+  int z = 0;
+  while (x<2)
+  {
+    digitalWrite(LED_BUILTIN, HIGH);   //blinks "S" 3 times
   delay(100);                      
   digitalWrite(LED_BUILTIN, LOW);   
   delay(100);                      
-  digitalWrite(LED_BUILTIN, HIGH);  
-  delay(100);                       
-  digitalWrite(LED_BUILTIN, LOW);   
-  delay(100);  
-  digitalWrite(LED_BUILTIN, HIGH);  
-  delay(100);                      
-  digitalWrite(LED_BUILTIN, LOW);    
-  delay(100);
+  x++;
+  }
+  while (y<2)
+  {
   digitalWrite(LED_BUILTIN, HIGH);  // blinks 'O' 3 times 
   delay(500);                      
   digitalWrite(LED_BUILTIN, LOW);    
-  delay(100);                       
-  digitalWrite(LED_BUILTIN, HIGH);   
-  delay(500);                       
-  digitalWrite(LED_BUILTIN, LOW);    
-  delay(100);  
-  digitalWrite(LED_BUILTIN, HIGH);   
-  delay(500);                       
-  digitalWrite(LED_BUILTIN, LOW);    
   delay(100);
-  digitalWrite(LED_BUILTIN, HIGH);   // blinks "S" 3 times
-  delay(100);                       
-  digitalWrite(LED_BUILTIN, LOW);    
-  delay(100);                       
-  digitalWrite(LED_BUILTIN, HIGH);  
+  y++;                     
+  }
+ while (z<2)
+  {
+    digitalWrite(LED_BUILTIN, HIGH);   //blinks "S" 3 times
   delay(100);                      
   digitalWrite(LED_BUILTIN, LOW);   
-  delay(100);  
-  digitalWrite(LED_BUILTIN, HIGH);   
-  delay(100);                       
-  digitalWrite(LED_BUILTIN, LOW);    
-  delay(100);
+  delay(100);                      
+  z++;
+  }
+  
+  
 }
